@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.star-rating-container {
+  display: flex;
+  flex-direction: row;
+}
+.book-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.book-data input,
+.book-data button {
+  margin: 2px 0;
+}
+
+.star-rating {
+  font-size: 24px;
+  color: #ffd700;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
